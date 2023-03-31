@@ -1,0 +1,80 @@
+.profile-page{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    align-items: center;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+h3{
+    text-align: center;
+}
+
+.top-headings{
+    margin-top: 50px;
+}
+
+.url-like{
+    color: rgb(101, 101, 255);
+    cursor: pointer;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+
+.inputs-image{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30%;
+    width: 100vh;
+}
+
+.user-image{
+    height: 200px;
+    border-radius: 50%;
+    display: block;
+}
+
+.user-image-btn{
+    margin-top: 20px;
+    background-color: var(--text-color);
+    color: teal;
+    font-family: "Source Code Pro", monospace;
+    padding: 10px 30px;
+}
+
+.user-inputs{
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: self-end;
+}
+
+.inner-input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.user-input{
+    display: inline;
+    padding: 10px;
+    font-size: 15px;
+    width: 40vh;
+    outline: none;
+}
+
+
+.update-profile-btn{
+    margin-top: 70px;
+}

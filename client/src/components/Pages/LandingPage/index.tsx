@@ -1,5 +1,5 @@
 import "./styles.css";
-
+import {Link} from 'react-router-dom';
 export const LandingPage = (): JSX.Element => {
   return (
     <main>
@@ -8,7 +8,7 @@ export const LandingPage = (): JSX.Element => {
           <h1>Modern way of collecting user&#x27;s data</h1>
           <h3>Collect data in the way your users enjoy</h3>
           <div className="buttons__container">
-            <button>Get started</button>
+          <Link to='/login' className="link"><button>Get started</button></Link>
             <button>See how it works</button>
           </div>
         </div>
