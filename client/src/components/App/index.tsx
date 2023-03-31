@@ -1,12 +1,12 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { LandingPage, PageNotFound } from "../Pages";
-
+import { LandingPage, PageNotFound, LoginPage, ProfilePage } from "../Pages";
 export const App = (): JSX.Element => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LandingPage />} />
-        <Route path="/login" element={<h1>login page</h1>} />
+        <Route path="/login" element={<LoginPage/>} />
+        <Route path="/profile" element={<ProfilePage/>} />
         <Route path="/forms/:formId" element={<h1>Your form page</h1>} />
         <Route path="/dashboard/*">
           <Route path="forms" element={<h1>list of your forms</h1>} />

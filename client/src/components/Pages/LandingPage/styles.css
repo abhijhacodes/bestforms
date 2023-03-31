@@ -34,7 +34,10 @@ main {
   opacity: 0;
   animation: slide-down-on-load 0.5s linear 1s forwards;
 }
-
+.link{
+  text-decoration: none;
+  color: white;
+}
 button {
   padding: 0.75rem 5rem;
   font-size: large;
@@ -94,3 +97,5 @@ h3 {
     height: 75%;
   }
 }
+
+
